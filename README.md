@@ -34,3 +34,43 @@ Dependencias necesarias (si se ejecuta localmente):
   scipy
 
   zipfile / os
+
+# Ejecución del código en Google Colab
+
+1. Abre el archivo ProyectoIV.ipynb en Google Colab.
+
+2. Conéctate al entorno de ejecución (botón Conectar en la esquina superior derecha).
+
+3. Ejecuta las celdas de arriba hacia abajo (o usa Runtime → Ejecutar todo).
+
+4. Cuando el notebook lo indique, sube el archivo ProyectoIV.zip, que debe contener tus imágenes.
+
+6. El sistema listará las imágenes disponibles y te pedirá seleccionar una.
+
+Una vez elegida, se realizará automáticamente:
+
+- Preprocesamiento
+
+- Análisis térmico
+
+- Segmentación K-Means
+
+- Detección de objetos
+
+- Generación de tablas y gráficos
+
+7. Al finalizar, se mostrarán:
+
+- Diagnóstico térmico
+
+- Tablas de fallas
+
+- Resultados del clustering
+
+- Matriz de confusión
+
+- Imágenes procesadas (bordes, detecciones, zonas térmicas)
+
+- Vistas comparativas de las capas generadas
+
+El notebook incluye también explicaciones paso a paso para facilitar la interpretación.

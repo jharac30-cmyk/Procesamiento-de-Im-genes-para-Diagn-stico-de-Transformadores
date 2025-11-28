@@ -21,16 +21,16 @@ Dependencias necesarias (si se ejecuta localmente):
 
 - Librerías:
 
-- numpy
+  numpy
 
-- matplotlib
+  matplotlib
 
-- pandas
+  pandas
 
-- opencv-python
+  opencv-python
 
-- scikit-learn
+  scikit-learn
 
-- scipy
+  scipy
 
-- zipfile / os
+  zipfile / os

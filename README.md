@@ -49,28 +49,40 @@ Dependencias necesarias (si se ejecuta localmente):
 
 Una vez elegida, se realizará automáticamente:
 
-- Preprocesamiento
+   - Preprocesamiento
 
-- Análisis térmico
+   - Análisis térmico
 
-- Segmentación K-Means
+   - Segmentación K-Means
 
-- Detección de objetos
+   - Detección de objetos
 
-- Generación de tablas y gráficos
+   - Generación de tablas y gráficos
 
 7. Al finalizar, se mostrarán:
 
-- Diagnóstico térmico
+   - Diagnóstico térmico
 
-- Tablas de fallas
+   - Tablas de fallas
 
-- Resultados del clustering
+   - Resultados del clustering
 
-- Matriz de confusión
+   - Matriz de confusión
 
-- Imágenes procesadas (bordes, detecciones, zonas térmicas)
+   - Imágenes procesadas (bordes, detecciones, zonas térmicas)
 
-- Vistas comparativas de las capas generadas
+   - Vistas comparativas de las capas generadas
 
 El notebook incluye también explicaciones paso a paso para facilitar la interpretación.
+
+# Formato esperado de los datos
+
+El archivo ProyectoIV.zip debe contener únicamente imágenes en formato .jpg (JPEG).
+
+Las imágenes deben mostrar transformadores eléctricos o zonas térmicas relevantes.
+No hay restricciones adicionales.
+
+# Conclusiones
+
+El sistema permite analizar imágenes térmicas y visuales de transformadores para identificar patrones relevantes como zonas frías, medias y calientes, así como posibles riesgos asociados a ensuciamiento, daños físicos o sobrecalentamientos.
+El proceso automatizado facilita una evaluación rápida del estado del equipo y apoya la toma de decisiones en mantenimiento preventivo.
